@@ -1,0 +1,35 @@
+# ---- macOS system files ----
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ---- Python bytecode / cache ----
+__pycache__/
+*.py[cod]
+*.class
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+
+# ---- Build / distribution ----
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# ---- Jupyter notebooks checkpoints ----
+.ipynb_checkpoints/
+
+# ---- Logs / temporary files ----
+*.log
+*.tmp
+*.bak
+*.swp
+
+# ---- IDE / editor settings ----
+.vscode/
